@@ -17,12 +17,14 @@ class Json2Xml extends AbstractTask
         echo PHP_EOL . ' ===== ' . __METHOD__ . ': BEGIN ==== ' . PHP_EOL;
 
         $data = array(
-            'foo' => 'bar',
-            'nest' => array(
+            'fooInt' => 1234567890,
+            'fooBool'=> true,
+            'fooString' => 'bar',
+            'fooArrayList'=> array(1,2,3,4),
+            'fooArrayDictionary' => array(
                 'foo' => 'bar',
-                'nest' => array(
+                'nestedDict' => array(
                     'foo' => 'bar',
-
                 ),
             ),
         );

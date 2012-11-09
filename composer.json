@@ -1,0 +1,41 @@
+{
+    "name":"bastman/json2xml",
+    "type":"library",
+    "description":"json xml serializer",
+    "keywords":["library", "xml", "serializer"],
+    "homepage":"http://github.com/bastman/json2xml",
+    "license":"MIT",
+    "support":{
+        "issues":"https://github.com/bastman/json2xml/issues"
+    },
+    "authors":[
+        {
+            "name":"Sebastian Schmidt",
+            "email":"sebastian.schmidt@crowdpark.com",
+            "homepage":"http://www.crowdpark.com",
+            "role":"Developer"
+        }
+    ],
+    "autoload":{
+        "psr-0":{
+            "Processus\\":"src",
+            "TestStackExample\\":"example/teststack"
+        }
+    },
+
+
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://packages.zendframework.com/"
+        }
+    ],
+    "require":{
+        "php":">=5.3",
+
+        "zendframework/zend-xmlrpc":"2.0"
+    },
+
+
+    "minimum-stability":"dev"
+}

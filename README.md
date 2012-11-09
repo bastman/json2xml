@@ -24,8 +24,9 @@ RESULT
 <pre>
 json {"fooInt":1234567890,"fooBool":true,"fooString":"bar","fooArrayList":[1,2,3,4],"fooArrayDictionary":{"foo":"bar","nestedDict":{"foo":"bar"}}}
 </pre>
-<pre>
-xml: <value><struct><member><name>fooInt</name><value><int>1234567890</int></value></member><member><name>fooBool</name><value><boolean>1</boolean></value></member><member><name>fooString</name><value><string>bar</string></value></member><member><name>fooArrayList</name><value><array><data><value><int>1</int></value><value><int>2</int></value><value><int>3</int></value><value><int>4</int></value></data></array></value></member><member><name>fooArrayDictionary</name><value><struct><member><name>foo</name><value><string>bar</string></value></member><member><name>nestedDict</name><value><struct><member><name>foo</name><value><string>bar</string></value></member></struct></value></member></struct></value></member></struct></value>
-</pre>
 
+```xml
 
+xml: "<value><struct><member><name>fooInt</name><value><int>1234567890</int></value></member><member><name>fooBool</name><value><boolean>1</boolean></value></member><member><name>fooString</name><value><string>bar</string></value></member><member><name>fooArrayList</name><value><array><data><value><int>1</int></value><value><int>2</int></value><value><int>3</int></value><value><int>4</int></value></data></array></value></member><member><name>fooArrayDictionary</name><value><struct><member><name>foo</name><value><string>bar</string></value></member><member><name>nestedDict</name><value><struct><member><name>foo</name><value><string>bar</string></value></member></struct></value></member></struct></value></member></struct></value>"
+
+```
